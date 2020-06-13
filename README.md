@@ -1,4 +1,4 @@
-,,,
+```yml
 version: '3'
 services:
   web-master:
@@ -15,7 +15,7 @@ services:
     privileged: true
    volumes:
      - .:/home/bitrix/www
-
+```
 
 
 Для подключения проекта поменяйте значение `volumes` секции `web` на `path-to-project/:/home/bitrix/www`. 
