@@ -12,8 +12,8 @@ services:
     security_opt:
       - seccomp:unconfined
     privileged: true
-#   volumes:
-#     - .:/home/bitrix/www
+   volumes:
+     - .:/home/bitrix/www
 
 
 
